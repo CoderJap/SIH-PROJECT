@@ -2,6 +2,9 @@
   "name": "sihproject",
   "version": "1.0.0",
   "workspaces": ["client", "server", "chainServer"],
+  "scripts": {
+    "dev:client": "yarn workspace client dev"
+  },
   "main": "index.js",
   "repository": "https://github.com/CoderJap/SIH-PROJECT.git",
   "author": "Japjot Singh Nanda <japjotwork007@gmail.com>",
